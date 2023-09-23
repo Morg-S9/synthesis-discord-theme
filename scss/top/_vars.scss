@@ -47,6 +47,7 @@ $color-twitch:      var(--synth-color-twitch);      // $twitch
 $color-toggle-off:  var(--synth-color-button);      // $blue
 $color-toggle-on:   var(--synth-color-foreground);  // $gold
 
+$titlebar-text:     var(--synth-titlebar-text);     // $titlebar-text
 @function transparentize($color, $amount) {
     @return rgb($color / (1 - $amount));
 }
